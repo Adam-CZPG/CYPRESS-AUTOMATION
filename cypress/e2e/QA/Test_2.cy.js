@@ -1,8 +1,8 @@
 describe('czv', () => {
     it('By',() => {
-        cy.visit('https://www.czc.cz/');
+        cy.visit('https://rozetka.com.ua/');
         cy.viewport(1000, 660);
-        cy.contains('Honeywell MS7120 Orbit - USB, černá').click();
+        cy.get('.basket-2-nd-step-basket desktop').click()
    
     })
         
